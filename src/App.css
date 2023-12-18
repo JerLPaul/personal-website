@@ -14,23 +14,10 @@
 }
 
 .App-body {
-  background-color: #282c34;
+  background-color: #d2d6df;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-body navbar {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -47,3 +34,70 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: right;
+  color: white;
+  padding: 0 20px;
+  background: #3c4690;
+ 
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #61dafb;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav li:first-child {
+  margin-left: 20px;
+}
+
+nav li:last-child {
+  margin-right: 20px;
+}
+
+.navbtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+    border-color: transparent;
+    transition: background-color 0.2s ease-in-out;
+}
+  
+.navbtn:hover {
+  background-color: #444d97;
+}
+
+
