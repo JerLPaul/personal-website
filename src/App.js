@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
@@ -12,23 +12,11 @@ function App() {
       <div class="App">
         <body class="App-body">
           <Navbar />
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
-          </Switch>
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Projects" element={<Projects />} />
+          </Routes>
         </body>
       </div>
     </Router>

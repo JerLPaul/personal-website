@@ -14,7 +14,7 @@
 }
 
 .App-body {
-  background-color: #d2d6df;
+  background-color: #343b6f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -40,6 +40,9 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: right;
+  position: fixed;
+  width: 100%;
+  height: 10%;
   color: white;
   padding: 0 20px;
   background: #3c4690;
@@ -100,4 +103,29 @@ nav li:last-child {
   background-color: #444d97;
 }
 
+.projContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10%;
+}
 
+.projCard {
+  display: flex;
+  width: 100%;
+  margin-left: "auto";
+  margin-right: "auto";
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px;
+  background: #343b6f;
+  box-shadow:  20px 20px 80px #2c325e,
+             -20px -20px 80px #3c4480;
+}
