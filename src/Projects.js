@@ -6,13 +6,17 @@ export default function Projects() {
         <div className="App">
             <div className="projContainer">
                 <div className="projCard">
-                    <h2>Project 1</h2>
-                    <p>Project 1 description</p>
+                    <img src="https://via.placeholder.com/150" alt="Automator" />
+                    <div className="projText">
+                        <h2>Automator</h2>
+                        <p>Automator is a web extension that replicates user interactions within web pages and creates reusable simulations</p>
+                    </div>
                 </div>
 
                 <div className="projCard">
-                    <h2>Project 2</h2>
-                    <p>Project 2 description</p>
+                    <img src="https://via.placeholder.com/150" alt="Spellchecker" />
+                    <h2>Spellchecker</h2>
+                    <p>This project is a multithreaded spellchecker.</p>
                 </div>
             </div>
         </div>

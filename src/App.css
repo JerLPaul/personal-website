@@ -118,8 +118,8 @@ nav li:last-child {
   margin-right: "auto";
   padding-left: 10%;
   padding-right: 10%;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   color: white;
   padding: 20px;
@@ -128,4 +128,26 @@ nav li:last-child {
   background: #343b6f;
   box-shadow:  20px 20px 80px #2c325e,
              -20px -20px 80px #3c4480;
+}
+
+.projCard img {
+  width: 20%;
+  height: 100%;
+  border-radius: 50px;
+  margin-bottom: 20%;
+}
+
+.text {
+  flex: 1;
+  flex-direction: row;
+  text-align: left;
+
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10%;
 }
