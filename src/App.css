@@ -108,7 +108,10 @@ nav li:last-child {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  gap: 150px;
 }
 
 .projCard {
@@ -116,25 +119,22 @@ nav li:last-child {
   width: 100%;
   margin-left: "auto";
   margin-right: "auto";
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 10%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 10%;
   color: white;
-  padding: 20px;
-  margin: 20px;
   border-radius: 50px;
   background: #343b6f;
-  box-shadow:  20px 20px 80px #2c325e,
-             -20px -20px 80px #3c4480;
+  box-shadow:  20px 20px 50px #2c325e,
+             -20px -20px 50px #3c4480;
 }
 
 .projCard img {
-  width: 20%;
+  width: 50%;
   height: 100%;
   border-radius: 50px;
-  margin-bottom: 20%;
 }
 
 .text {
@@ -150,4 +150,5 @@ nav li:last-child {
   flex-wrap: wrap;
   align-items: center;
   padding: 10%;
+  gap: 10%;
 }
