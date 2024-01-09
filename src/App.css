@@ -46,7 +46,17 @@ nav {
   color: rgb(0, 0, 0);
   padding: 0 20px;
   background: #2c325e;
- 
+}
+
+section {
+  display: flex;
+  height: auto;
+  width: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  gap: 5%;
 }
 
 nav a {
@@ -138,17 +148,18 @@ nav li:last-child {
              -20px -20px 50px #3c4480;
 }
 
-.projCard img {
+img {
   width: 50%;
   height: 100%;
   border-radius: 50px;
 }
 
 .text {
+  width: 50%;
   flex: 1;
   flex-direction: row;
-  text-align: left;
-
+  text-align: center;
+  justify-content: center;
 }
 
 .aboutContainer {
@@ -157,5 +168,41 @@ nav li:last-child {
   flex-wrap: wrap;
   align-items: center;
   padding: 10%;
-  gap: 10%;
+  gap:10%;
 }
+
+.aboutContainer img {
+  width: 25%;
+  height: 25%;
+  border-radius: 50px;
+}
+
+.home {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #343b6f;
+}
+
+.home > * {
+  margin-bottom: 100px
+}
+
+.profilePic {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  border-radius: 0px;
+}
+
+.langIcon {
+  width: 20%;
+  height: 20%;
+  border-radius: 50px;
+  align-content: left;
+}
+

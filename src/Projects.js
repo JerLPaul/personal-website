@@ -8,7 +8,10 @@ export default function Projects() {
                     <img src="https://via.placeholder.com/150" alt="Automator" />
                     <div className="text">
                         <h2>Automator</h2>
-                        <p>Automator is a web extension that replicates user interactions within web pages and creates reusable simulations</p>
+                        <p>
+                            Automator is a web extension that replicates user interactions within web pages 
+                            and creates reusable macros and scripts to simplify and automate user workflows.
+                        </p>
                     </div>
                 </div>
 
@@ -16,7 +19,10 @@ export default function Projects() {
                     <img src="https://via.placeholder.com/150" alt="Spellchecker" />
                     <div className="text">
                         <h2>Spellchecker</h2>
-                        <p>This project is a multithreaded spellchecker.</p>
+                        <p>
+                            I created a multithreaded spellchecker system which can suggest the closest word given a dictionary.
+                            The system can utilize custom dictionaries and can be used to spellcheck multiple files at once.
+                        </p>
                     </div>
                 </div>
             </div>
